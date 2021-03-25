@@ -75,7 +75,7 @@ class  Calculator extends React.Component {
     }
     
     render() {
-        console.log(this.state.saveNum)
+        
         return (
             <Container style={{backgroundColor: "black", width: "600px"}}>
                 <DisplayResult result={this.state.display}/>
